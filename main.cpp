@@ -10,13 +10,13 @@ int main() {
   for (int low = 0; low < cases; low++)
     {
       cin >> N;
-      int fact = 1;
+      int f = 1;
       for (int i = 1; i <=N; i++)
         {
-          fact *= i;
-          fact %= 10;
+          f *= i;
+          f %= 10;
         }
-      cout<< fact << endl;
+      cout<< f << endl;
       
     }
 
