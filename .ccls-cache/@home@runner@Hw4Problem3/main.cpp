@@ -13,8 +13,10 @@ int main() {
       int fact = 1;
       for (int i = 1; i <=N; i++)
         {
-          
+          fact *= i;
+          fact %= 10;
         }
+      
     }
 
 
