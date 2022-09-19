@@ -16,6 +16,7 @@ int main() {
           fact *= i;
           fact %= 10;
         }
+      cout<< fact << endl;
       
     }
 
