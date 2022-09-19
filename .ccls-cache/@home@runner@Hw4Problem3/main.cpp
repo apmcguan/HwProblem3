@@ -4,8 +4,10 @@ using namespace std;
 
 
 int main() {
-  int N;
-  cin>> N;
+  int N, cases;
+  cin>> cases;
+
+
   
   
   
